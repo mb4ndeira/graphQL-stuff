@@ -7,7 +7,7 @@ type User = {
   name: string
 }
 
-const GET_USER = gql`
+export const GET_USER = gql`
   query { 
     users { 
       id 
