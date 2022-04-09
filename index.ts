@@ -1,3 +1,4 @@
+import 'reflect-metadata'
 import path from 'path'
 import { ApolloServer } from 'apollo-server'
 import { buildSchema } from 'type-graphql'
